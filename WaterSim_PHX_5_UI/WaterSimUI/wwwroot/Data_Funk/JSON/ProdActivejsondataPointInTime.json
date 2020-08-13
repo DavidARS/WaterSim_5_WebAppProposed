@@ -1,0 +1,28 @@
+{
+"MODELSTATUS": 
+{"STARTYEAR": 2010,"ENDYEAR": 2010},"RESULTS": 
+[{"FLD": "WEBEFPCT","VALS": [30]},
+{"FLD": "WEBAGTR1","VALS": [45] },
+{"FLD": "ENFLOPCT","VALS": [42] },
+{"FLD": "WEBPRPCT","VALS": [34] },
+{"FLD": "WEBPOPGR","VALS": [52] },
+{"FLD": "WEBEFAG","VALS": [46] },
+{"FLD": "WEBEFENV","VALS": [54] },
+{"FLD": "POWSTORE","VALS": [47] },
+{"FLD": "MEDSTORE","VALS": [63] },
+{"FLD": "SVRSTORE","VALS": [36] },
+{"FLD": "CORFLOW","VALS": [39] },
+{"FLD": "SVRFLOW","VALS": [52] },
+{"FLD": "GWP","VALS": [52] },
+{"FLD": "RECTOT","VALS": [{"PVC":"ch","VALS":[45]},{"PVC":"phx","VALS":[35]}] },
+{"FLD": "MGWPUMP","VALS": [{"PVC":"ch","VALS":[35]},{"PVC":"phx","VALS":[34]}] },
+{"FLD": "SRPDELIV","VALS": [{"PVC":"ch","VALS":[46]},{"PVC":"phx","VALS":[46]}] },
+{"FLD": "COLDELIV","VALS": [{"PVC":"ch","VALS":[76]},{"PVC":"phx","VALS":[63]}] },
+{"FLD": "WATAUG","VALS": [{"PVC":"ch","VALS":[68]},{"PVC":"phx","VALS":[74]}] },
+{"FLD": "TOTDEM","VALS": [{"PVC":"ch","VALS":[98]},{"PVC":"phx","VALS":[45]}] },
+{"FLD": "GPCDUSED","VALS": [{"PVC":"ch","VALS":[56]},{"PVC":"phx","VALS":[67]}] },
+{"FLD": "BNKUSED","VALS": [{"PVC":"ch","VALS":[36]},{"PVC":"phx","VALS":[56]}] },
+{"FLD": "POPUSED","VALS": [{"PVC":"ch","VALS":[45]},{"PVC":"phx","VALS":[45]}] },
+{"FLD": "POPONPRJ","VALS": [{"PVC":"ch","VALS":[85]},{"PVC":"phx","VALS":[34]}] },
+{"FLD": "POPOTHER","VALS": [{"PVC":"ch","VALS":[68]},{"PVC":"phx","VALS":[33]}] }
+]}

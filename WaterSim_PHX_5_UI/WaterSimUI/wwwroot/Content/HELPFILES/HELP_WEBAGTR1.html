@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Agriculture - WEBAGTR1</title>
+</head>
+<!--DAS 10.13.14 edits-->
+<body>
+<h3 style="font-family: 'Gill Sans', 'Gill Sans MT', 'Myriad Pro', 'DejaVu Sans Condensed', Helvetica, Arial, sans-serif; color: #990033;">Farm Water Used by Cities</h3>
+
+<p style="font-family: 'Gill Sans', 'Gill Sans MT', 'Myriad Pro', 'DejaVu Sans Condensed', Helvetica, Arial, sans-serif; color: #4F5557;">
+<b>Definition:</b>
+The percentage of agriculture water credits diverted from agricultural use on farms to municipal water use for the region as a whole. Water credits are specific amounts of water, on paper, that may be used or transfered by the owner.<br><br>
+
+<b>Real World Example:</b>
+Presently, agriculture accounts for almost 50% of the total water used in Maricopa County. This includes small farmers and ranchers as well as large companies that raise animals or grow crops. In the future, water currently used for farming and agriculture may instead be used to help meet the water needs of growing communities.
+<br><br>
+
+<b>Implementation:</b>
+This control determines the percentage, from 0 to 100%, of surface, groundwater, and effluent diverted from farms and agriculture to municipal water use. Municipal water use may include household water use, commercial uses, and industry. When the control is set to 100%, this represents all available water (that can be transferred) being diverted and no water available for agriculture. However, this transfer of water credits would be phased in gradually and a complete transfer would not occur until 2085. <br><br>
+
+The sustainability indicator (SI) for this control is labeled "Agricultural Production." Thus, when the efficiency of production equals one (default value) this indicator represents 100 minus the percent of water being transferred to cities. However, there are several reasons why the value depicted in the SI may not match 100 minus the value displayed in the control: <br><br>
+
+1) The default value of 30% represents the value for 2085 but it appears as 81% in the SI (19% transferred not 30%) in the SI for Agriculture for 2050 (if the Median Flow Record is used in the simulation); water from the Central Arizona Project (CAP) canal is still important and may be available in 2050. CAP credits can represent a dominant portion of the total credits transfered in early years of the simulation, depending on the river flow.<br><br>
+
+2) Agriculture also receives effluent. Unless the "Wastewater Reclaimed" control (see above) is set to 100%, agriculture will still receive effluent. <br><br>
+
+3) Some water that agriculture now holds cannot be transferred.(due to specific rights).<br><br>
+
+<i>Note: In a low flow year for the Colorado River (either due to the segment of the Thirty-year River Flow Record being used or if climate change or drought are imposed on the river flows) this percentage will be lower.</i>
+<br><br>
+Not all water providers have agriculture. Cities vary in the water used for agriculture, and thus their ability to transfer water to municipal use. And, not all credits transferred are necessarily used; credits act as a savings bank for water utilities. Agricultural credits transfered are only used if a utilities base credits are depleted.
+</p>
+
+<p style="font-family: 'Gill Sans', 'Gill Sans MT', 'Myriad Pro', 'DejaVu Sans Condensed', Helvetica, Arial, sans-serif; color: #4F5557;"><b>Field name:</b> <span style="color: #990033">WEBAGTR1</span></p>
+</body>
+</html>
